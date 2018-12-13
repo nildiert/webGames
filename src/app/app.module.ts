@@ -7,10 +7,12 @@ import { VideoJuegosService } from './services/videojuegos.services';
 import { RouterModule, Routes, Router } from '@angular/router';
 import { VideoJuegosComponent } from './videojuegos/videojuegos.component';
 import { PortadaComponent } from './portada/portada.component';
+import { DetalleComponent } from './detalle/detalle.component';
 
 const appRoutes: Routes = [
   { path: '', component: PortadaComponent },
   { path: 'videojuegos', component: VideoJuegosComponent },
+  {path:'detalle/:id',component:DetalleComponent},
 ];
 
 
@@ -19,6 +21,7 @@ const appRoutes: Routes = [
     AppComponent,
     VideoJuegosComponent,
     PortadaComponent,
+    DetalleComponent,
   ],
   imports: [
     BrowserModule,

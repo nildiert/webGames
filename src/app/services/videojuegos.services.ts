@@ -14,7 +14,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": true,
                 "price": "35000",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2013/03/Duke-Nukem-3D-Megaton-Edition-PC-portada.jpg",
+                "img": "https://i.ibb.co/9b2zHbh/Duke-Nukem-3-D-Megaton-Edition-PC-portada.jpg",
                 "description": "Duke Nukem 3D Megaton Edition Juego para PC Full del 2013 Juego de Acción para PC Duke Nukem 3D: Megaton Edition."
             },
             {
@@ -26,7 +26,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": false,
                 "price": "40000",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/shadows-awakening-pc-full-espanol.jpg",
+                "img": "https://i.ibb.co/WKnc5p0/shadows-awakening-pc-full-espanol.jpg",
                 "description": "Es la nueva aventura de la saga de los Reinos Heréticos."
             },
             {
@@ -38,7 +38,7 @@ export class VideoJuegosService{
                 "available": false,
                 "bestSeller": false,
                 "price": "10500",            
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/scum-pc-portada-compucalitv.jpg",
+                "img": "https://i.ibb.co/jzqFSFc/scum-pc-portada-compucalitv.jpg",
                 "description": "SCUM es un nuevo videojuego para PC del genero de supervivencia en mundo abierto, el juego aunque cuenta con modo single player."
             },
             {
@@ -62,7 +62,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": true,
                 "price": "6500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/graveyard-keeper-pc-full-espanol.jpg",
+                "img": "https://i.ibb.co/n880z0J/graveyard-keeper-pc-full-espanol.jpg",
                 "description": "Prepárate para explorar mazmorras misteriosas en Graveyard Keeper PC Full Español un juego desarrollado por Lazy Bear Games."
             },
             {
@@ -74,7 +74,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": true,
                 "price": "8000",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/09/flynn-and-freckles-pc-full-espanol.jpg",
+                "img": "https://i.ibb.co/gSxYxn7/flynn-and-freckles-pc-full-espanol.jpg",
                 "description": "Un joven pirata decide embarcarse en una alocada aventura en busca de un legendario tesoro en Flynn and Freckles PC Full Español un juego desarrollado por Rookie Hero Games."
             },
             {
@@ -86,7 +86,7 @@ export class VideoJuegosService{
                 "available": false,
                 "bestSeller": false,
                 "price": "17000",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/09/claws-of-furry-pc-full-espanol.jpg",
+                "img": "https://i.ibb.co/s5k0ZVg/claws-of-furry-pc-full-espanol.jpg",
                 "description": "Prepárate para poner a prueba tus habilidades ninja en Claws of Furry PC Full Español un juego que te destina a luchar contra todo el barrio. Incluye, además, 50 niveles de completo caos."
             },
             {
@@ -98,7 +98,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": false,
                 "price": "14500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2016/07/UNDER-NIGHT-IN-BIRTH-Exe-Late-st-PC-Full-portada.jpg",
+                "img": "https://i.ibb.co/CMFmPH3/UNDER-NIGHT-IN-BIRTH-Exe-Late-st-PC-Full-portada.jpg",
                 "description": "Prepárate para poner a prueba tus habilidades ninja en Claws of Furry PC Full Español un juego que te destina a luchar contra todo el barrio. Incluye, además, 50 niveles de completo caos."
             },
             {
@@ -136,7 +136,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": true,
                 "price": "14500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/09/nascar-heat-3-pc-full.jpg",
+                "img": "https://i.ibb.co/DfKYPzZ/nascar-heat-3-pc-full.jpg",
                 "description": "Nascar Heat 3 PC Full es un juego competitivo en un modo de juego sumamente mejorado con el fin de convertir al participante en un corredor profesional."
             },
             {
@@ -148,7 +148,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": true,
                 "price": "4500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/09/NBA-2K19-20th-AE-PC-Full-compucalitv-portada.jpg",
+                "img": "https://i.ibb.co/McMGNKT/NBA-2-K19-20th-AE-PC-Full-compucalitv-portada.jpg",
                 "description": "Han pasados 20 años desde que 2K lanzo por primera vez un juego de baloncesto para PC, hoy 20 años después tenemos a nuestro alcance un espectacular simulador de baloncesto tan realista que ni te lo podrás creer, disfruta de NBA 2K19 20th Anniversary Edition PC Full Español."
             },
             {
@@ -160,7 +160,7 @@ export class VideoJuegosService{
                 "available": false,
                 "bestSeller": false,
                 "price": "4500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/ultimate-fishing-simulator-pc-full-espanol.jpg",
+                "img": "https://i.ibb.co/jf2PzQr/ultimate-fishing-simulator-pc-full-espanol.jpg",
                 "description": "Los desarrolladores de Ultimate Fishing Simulator PC Full Español plantean brindar una experiencia única a la hora de tener una caña de pescar."
             },
             {
@@ -172,7 +172,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": false,
                 "price": "6000",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/The-Golf-Club-2019-featuring-PGA-TOUR-PC-portada.jpg",
+                "img": "https://i.ibb.co/j5SBCB4/The-Golf-Club-2019-featuring-PGA-TOUR-PC-portada.jpg",
                 "description": "Nuevo juego de Golf para PC, se trata de The Golf Club 2019 para PC Full con textos en español, el cual cuenta con un un editor de personajes mejorado, sociedades individuales y mejoradas al igual que nuevos modos de juego como Skins y ALT-SHOT"
             },
             {
@@ -232,7 +232,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": true,
                 "price": "12500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/panzer-strategy-pc-full.jpg",
+                "img": "https://i.ibb.co/RhD7C2W/panzer-strategy-pc-full.jpg",
                 "description": "La Segunda Guerra Mundial esta mas inmersa que nunca en Panzer Strategy PC Full un juego desarrollado por Starni Games."
             },
             {
@@ -268,7 +268,7 @@ export class VideoJuegosService{
                 "available": true,
                 "bestSeller": false,
                 "price": "12500",
-                "img": "https://www.compucalitv.com/wp-content/uploads/2018/08/Naruto-to-Boruto-Shinobi-Striker-PC-portada-compucalitv.jpg",
+                "img": "https://i.ibb.co/x80Gcp8/Naruto-to-Boruto-Shinobi-Striker-PC-portada-compucalitv.jpg",
                 "description": "Nueva videojuego de naruto para PC, esta vez podremos disfrutar de Naruto to Boruto: Shinobi Striker PC Full Español en el que contaremos con personajes de tipo: Ataque, Larga distancia, defensa y sanadores."
             },
             {
@@ -332,8 +332,13 @@ export class VideoJuegosService{
                 "description": "En primer lugar haz caer toda la brutalidad que puedas sobre criminales despiadados en violentos combates de desplazamiento lateral con el juego Raging Justice PC Full Español en mortíferas calles a puñetazos, patadas y peleas para castigar a esos gamberros.."
             }
         ];
-        
+
         public getVideoJuegos(){
             return this.productos;
         }
+        public buscarVideoJuego(id){
+          return  this.productos.filter((juego)=>{return juego.id == id})[0] || null;
+        }
+        
+
 }

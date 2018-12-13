@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+.imagenes{
+    position:relative;
+    width:204px;
+    height:307,2px;
+
+}
+
+.zoom{
+    transition: transform .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    border:2px;
+    border-radius:5px;
+
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.7), 0 7px 21px 0 rgba(0, 0, 0, 0.8);
+}
+
+.img-detalle{
+    border:2px;
+    border-radius:5px;
+    width:255px;
+    height:384px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.7), 0 7px 21px 0 rgba(0, 0, 0, 0.8);
+}
