@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CategoriasService } from './services/categorias.services';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'webGames';
+  categorias = null;
+  constructor(private categoriasService:CategoriasService){
+    this.categorias = categoriasService.getCategorias();
+  }
 }

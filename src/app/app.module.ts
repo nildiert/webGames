@@ -8,6 +8,7 @@ import { RouterModule, Routes, Router } from '@angular/router';
 import { VideoJuegosComponent } from './videojuegos/videojuegos.component';
 import { PortadaComponent } from './portada/portada.component';
 import { DetalleComponent } from './detalle/detalle.component';
+import { CategoriasService } from './services/categorias.services';
 
 const appRoutes: Routes = [
   { path: '', component: PortadaComponent },
@@ -29,7 +30,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     
   ],
-  providers: [VideoJuegosService],
+  providers: [VideoJuegosService, CategoriasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
