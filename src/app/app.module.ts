@@ -9,11 +9,16 @@ import { VideoJuegosComponent } from './videojuegos/videojuegos.component';
 import { PortadaComponent } from './portada/portada.component';
 import { DetalleComponent } from './detalle/detalle.component';
 import { CategoriasService } from './services/categorias.services';
+import {MatButtonModule, MatCheckboxModule, MatFormFieldModule, MatInputModule, MatAutocompleteModule} from '@angular/material';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { CategoriasComponent } from './categorias/categorias.component';
+
 
 const appRoutes: Routes = [
   { path: '', component: PortadaComponent },
   { path: 'videojuegos', component: VideoJuegosComponent },
   {path:'detalle/:id',component:DetalleComponent},
+  {path:'categorias/:id',component:CategoriasComponent},
 ];
 
 
@@ -23,11 +28,19 @@ const appRoutes: Routes = [
     VideoJuegosComponent,
     PortadaComponent,
     DetalleComponent,
+    CategoriasComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes),
+    MatButtonModule, 
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatAutocompleteModule,
+    ReactiveFormsModule,
+    FormsModule
     
   ],
   providers: [VideoJuegosService, CategoriasService],

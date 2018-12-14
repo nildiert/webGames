@@ -41,9 +41,9 @@ export class CategoriasService{
         return this.categorias;
     }
 
-    // public buscarCategoria(id){
-    //     return
-    // }
+    public buscarCategoria(id){
+        return  console.log(this.categorias.filter((categoria)=>{return categoria.id == id})[0] || null);
+      }
     
 
 }

@@ -10,17 +10,30 @@
       <li class="nav-item">
         <a class="nav-link " routerLink="/videojuegos">Videojuegos</a>
       </li>
-
+      <li class="ml-4">
+        <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <input type="text" placeholder="Buscar..." aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+        </form>
+      </li>
     </ul>
-
+   
+    
   </div>
 </nav>
 <div class="buscador">
 
   <div class="d-flex justify-content-center ">
       <ul *ngFor="let categoria of categorias" class="mt-1">
-        <a href=""> <li>{{categoria.name}}</li></a>
+        <a routerLink="/categorias/{{categoria.id}}"> <li class="categorias">{{categoria.name}} </li></a>
       </ul>
     </div>
 </div>
+
 <router-outlet></router-outlet>
