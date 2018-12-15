@@ -12,11 +12,12 @@ import { VideoJuegosService } from './services/videojuegos.services';
 })
 export class AppComponent {
   myControl = new FormControl();
-  options: string[] = ['One', 'Two', 'Three'];
+  opciones=null;
   title = 'webGames';
   categorias = null;
   constructor(private categoriasService:CategoriasService, private videojuegosService:VideoJuegosService){
     this.categorias = categoriasService.getCategorias();
+    this.opciones = videojuegosService.getVideoJuegos();
   }
   filteredOptions: Observable<string[]>;
 
@@ -30,7 +31,8 @@ export class AppComponent {
 
   private _filter(value: string): string[] {
     const filterValue = value.toLowerCase();
-
-    return this.options.filter(option => option.toLowerCase().includes(filterValue));
+    console.log(filterValue);
+    return this.opciones.filter(opciones => opciones.name.includes(filterValue));
   }
+  
 }

@@ -16,24 +16,30 @@
             <input type="text" placeholder="Buscar..." aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
             <mat-autocomplete #auto="matAutocomplete">
               <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-                {{option}}
+                {{opciones.name}}
               </mat-option>
             </mat-autocomplete>
           </mat-form-field>
         </form>
       </li>
     </ul>
+
    
-    
+
   </div>
 </nav>
 <div class="buscador">
 
-  <div class="d-flex justify-content-center ">
+  <div class="d-flex justify-content-center pr-2">
       <ul *ngFor="let categoria of categorias" class="mt-1">
         <a routerLink="/categorias/{{categoria.id}}"> <li class="categorias">{{categoria.name}} </li></a>
       </ul>
+      <ul class="mt-1">
+        <a routerLink="/videojuegos"> <li class="categorias">Todos </li></a>
+      </ul>
     </div>
 </div>
+
+
 
 <router-outlet></router-outlet>
