@@ -12,6 +12,7 @@ import { CategoriasService } from './services/categorias.services';
 import {MatButtonModule, MatCheckboxModule, MatFormFieldModule, MatInputModule, MatAutocompleteModule} from '@angular/material';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { FiltrosComponent } from './filtros/filtros.component';
 
 
 const appRoutes: Routes = [
@@ -29,6 +30,7 @@ const appRoutes: Routes = [
     PortadaComponent,
     DetalleComponent,
     CategoriasComponent,
+    FiltrosComponent
   ],
   imports: [
     BrowserModule,
