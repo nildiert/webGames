@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { VideoJuegosService } from '../services/videojuegos.services';
 
 @Component({
   selector: 'app-filtros',
@@ -6,16 +7,27 @@ import { Component } from '@angular/core';
 })
 export class FiltrosComponent {
   
-  constructor(){
-    
+  id = null;
+  juegos = null;
+  constructor( private juegoService: VideoJuegosService){
+
   }
 
+  // constructor(private route: ActivatedRoute, private juegoService: VideoJuegosService, private router: Router){
+  //   router.events.subscribe((event: Event) => {
+  //     if (event instanceof NavigationEnd) {
+  //       this.actualizarJuegos()
+  //     }
+  //   })
+  // }
   
   ejecutar(){
     alert('lo que sea');
   }
   
-
+  actualizarJuegos() {
+    this.juegos = (this.juegoService.buscarBestSeller());
+  }
 }
 
 

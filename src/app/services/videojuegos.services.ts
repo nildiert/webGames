@@ -348,5 +348,31 @@ export class VideoJuegosService {
         }) : this.productos;
     }
 
+    public buscarBestSeller(){
+        return this.productos.filter(juego => {
+            return juego.bestSeller;
+        }) 
+    }
+
+    public buscarAgotados(){
+        return this.productos.filter(juego => {
+            return !juego.available;
+        }) 
+    }
+    public buscarDisponibles(){
+        return this.productos.filter(juego => {
+            return juego.available;
+        }) 
+    }
+    public buscarMayor(){
+        return this.productos.filter(juego => {
+            return juego.price > 30000;
+        }) 
+    }
+    public buscarMenor(){
+        return this.productos.filter(juego => {
+            return juego.price < 10000;
+        }) 
+    }
 
 }

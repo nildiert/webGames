@@ -7,11 +7,13 @@
         <thead>
             <th>Videojuego</th>
             <th>Precio</th>
+            <th></th>
         </thead>
         <tbody *ngFor="let item of carritoList">
             <tr >
                 <td>{{item.Name}}</td>  
                 <td class="text-success">{{item.price | currency}}</td>  
+                <td><button class="btn btn-outline-danger align-self-start" (click)="eliminarCarrito(item.idCarrito)">-</button></td>
             </tr>
         </tbody>
     </table>

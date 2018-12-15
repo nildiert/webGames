@@ -22,7 +22,7 @@ export class DetalleComponent implements OnInit {
   }
   addJuego(){
     // alert(""+)
-    this.carritoService.addJuego(this.juego.name, this.juego.id, this.juego.price)
+    this.carritoService.addJuego(Date.now(),this.juego.name, this.juego.id, this.juego.price)
   //   this.juegoItem=""
 
   }

@@ -16,12 +16,22 @@ import { FiltrosComponent } from './filtros/filtros.component';
 import { CarritoAddComponent } from './carritoadd/carritoadd.component';
 import { CarritoListComponent } from './carritolist/carritolist.component';
 import { CarritoService } from './services/carrito.services';
+import { BestSellerComponent } from './bestseller/bestseller.component';
+import { AgotadosComponent } from './agotados/agotados.component';
+import { DisponiblesComponent } from './disponibles/disponibles.component';
+import { MenorComponent } from './menor/menor.component';
+import { MayorComponent } from './mayor/mayor.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: PortadaComponent },
   { path: 'videojuegos', component: VideoJuegosComponent },
   { path: 'carrito', component: CarritoListComponent },
+  { path: 'bestSeller', component: BestSellerComponent },
+  { path: 'menor', component: MenorComponent },
+  { path: 'mayor', component: MayorComponent },
+  { path: 'agotados', component: AgotadosComponent },
+  { path: 'disponibles', component: DisponiblesComponent },
   {path:'detalle/:id',component:DetalleComponent},
   {path:'categorias/:id',component:CategoriasComponent},
 ];
@@ -37,7 +47,13 @@ const appRoutes: Routes = [
     CarritoAddComponent,
     CarritoListComponent,
     FiltrosComponent,
-    CarritoListComponent
+    CarritoListComponent,
+    BestSellerComponent,
+    AgotadosComponent,
+    DisponiblesComponent,
+    MenorComponent,
+    MayorComponent
+
   ],
   imports: [
     BrowserModule,

@@ -10,13 +10,13 @@ export class CategoriasComponent implements OnInit {
   id = null;
   juegos = null;
   // constructor(private route:ActivatedRoute,private juegoService:VideoJuegosService){
-  constructor(private route: ActivatedRoute, private juegoService: VideoJuegosService, private router: Router){
-    router.events.subscribe((event: Event) => {
-      if (event instanceof NavigationEnd) {
-        this.actualizarJuegos()
-      }
-    })
-  }
+    constructor(private route: ActivatedRoute, private juegoService: VideoJuegosService, private router: Router){
+      router.events.subscribe((event: Event) => {
+        if (event instanceof NavigationEnd) {
+          this.actualizarJuegos()
+        }
+      })
+    }
 
   ngOnInit() {
   }

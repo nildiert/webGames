@@ -20,4 +20,15 @@ export class CarritoListComponent implements OnInit{
             console.log(this.carritoList)
         })
     }
+
+
+    eliminarCarrito(id){
+        // alert(id );
+
+        for(var i=0; i<this.carritoList.length; i++){
+            if(this.carritoList[i]["idCarrito"] == id){
+                this.carritoList.splice(i,1);
+            }
+        }
+    }
 }
