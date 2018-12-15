@@ -13,9 +13,11 @@ export class CarritoService{
         this.carritoList = []
     }
 
-    // addJuego(item){
-    //     // Añadimos los nuevos datos al arreglo creado en el constructor
-    //     this.carritoList.push(new Carrito(item, false))
-    //     this.add_subject.next()
-    // }
+    addJuego(item){
+        // Añadimos los nuevos datos al arreglo creado en el constructor
+        this.carritoList.push(new Carrito(item, false))
+        this.add_subject.next()
+
+        console.log(this.carritoList)
+    }
 }

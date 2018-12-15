@@ -15,6 +15,7 @@ import { CategoriasComponent } from './categorias/categorias.component';
 import { FiltrosComponent } from './filtros/filtros.component';
 import { CarritoAddComponent } from './carritoadd/carritoadd.component';
 import { CarritoListComponent } from './carritolist/carritolist.component';
+import { CarritoService } from './services/carrito.services';
 
 
 const appRoutes: Routes = [
@@ -49,7 +50,7 @@ const appRoutes: Routes = [
     FormsModule
     
   ],
-  providers: [VideoJuegosService, CategoriasService],
+  providers: [VideoJuegosService, CategoriasService, CarritoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
