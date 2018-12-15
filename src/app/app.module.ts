@@ -13,6 +13,8 @@ import {MatButtonModule, MatCheckboxModule, MatFormFieldModule, MatInputModule, 
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { FiltrosComponent } from './filtros/filtros.component';
+import { CarritoAddComponent } from './carritoadd/carritoadd.component';
+import { CarritoListComponent } from './carritolist/carritolist.component';
 
 
 const appRoutes: Routes = [
@@ -30,6 +32,8 @@ const appRoutes: Routes = [
     PortadaComponent,
     DetalleComponent,
     CategoriasComponent,
+    CarritoAddComponent,
+    CarritoListComponent,
     FiltrosComponent
   ],
   imports: [
