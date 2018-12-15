@@ -21,6 +21,7 @@ import { CarritoService } from './services/carrito.services';
 const appRoutes: Routes = [
   { path: '', component: PortadaComponent },
   { path: 'videojuegos', component: VideoJuegosComponent },
+  { path: 'carrito', component: CarritoListComponent },
   {path:'detalle/:id',component:DetalleComponent},
   {path:'categorias/:id',component:CategoriasComponent},
 ];
@@ -35,7 +36,8 @@ const appRoutes: Routes = [
     CategoriasComponent,
     CarritoAddComponent,
     CarritoListComponent,
-    FiltrosComponent
+    FiltrosComponent,
+    CarritoListComponent
   ],
   imports: [
     BrowserModule,

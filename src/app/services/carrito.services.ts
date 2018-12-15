@@ -13,11 +13,14 @@ export class CarritoService{
         this.carritoList = []
     }
 
-    addJuego(item){
+    addJuego(item,id,precio){
         // Añadimos los nuevos datos al arreglo creado en el constructor
-        this.carritoList.push(new Carrito(item, false))
+        this.carritoList.push(new Carrito(item, id,precio,false))
         this.add_subject.next()
 
-        console.log(this.carritoList)
+        console.log(this.carritoList    ) 
+    }
+    getCarrito(){
+        return this.carritoList;
     }
 }

@@ -10,12 +10,14 @@ import { Carrito } from '../carritoadd/carrito.model';
 export class CarritoListComponent implements OnInit{
     private carritoList:Carrito[]
     constructor(private carritoService: CarritoService){
-
+        this.carritoList = carritoService.getCarrito();
+        
     }
 
     ngOnInit(){
         this.carritoService.add_subject.subscribe(response =>{
             this.carritoList = this.carritoService.carritoList;
+            console.log(this.carritoList)
         })
     }
 }
